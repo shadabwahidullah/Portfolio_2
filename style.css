@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .toolbar {
   display: flex;
@@ -33,10 +35,49 @@
 .headline {
   display: flex;
   flex-direction: column;
+  background: #1C1A19;
+  height: 91vh;
+  justify-content: center;
+  padding: 24px;
 }
 
+.hey{
+    font-family: "Crete Round";
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 64px;
+letter-spacing: 0.37px;
+color: #FF6B00;
+margin: 12px 0px;
+
+}
+
+.iam {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFF5E1;
+}
+.about{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: white;
+}
+.social_media{
+    display: flex;
+    flex-direction: row;
+}
 .fa {
+font-size: 30px;
   height: 50px;
   width: 50px;
-  color: bisque;
+  margin: 5px;
+  color: #DBD8D7;
 }
+
