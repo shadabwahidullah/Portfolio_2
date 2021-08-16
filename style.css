@@ -36,7 +36,11 @@
   display: flex;
   flex-direction: column;
   background: #1C1A19;
-  height: 91vh;
+  background-image: url("images/Illustration.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 97% bottom;
+  height: 85vh;
   justify-content: center;
   padding: 24px;
 }
@@ -49,7 +53,7 @@ font-size: 56px;
 line-height: 64px;
 letter-spacing: 0.37px;
 color: #FF6B00;
-margin: 12px 0px;
+margin: 0px;
 
 }
 
@@ -58,8 +62,9 @@ margin: 12px 0px;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height: 32px;
+    line-height: 15px;
     color: #FFF5E1;
+    margin: 15px 0px;
 }
 .about{
     font-family: Poppins;
@@ -77,7 +82,7 @@ color: white;
 font-size: 30px;
   height: 50px;
   width: 50px;
-  margin: 5px;
+  margin: 3px;
   color: #DBD8D7;
 }
 
