@@ -2,14 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
 .toolbar {
   display: flex;
   background: #3c3a39;
+  height: 50px;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.logo {
+.name {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -40,7 +46,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 97% bottom;
-  height: 85vh;
+  height: 88vh;
   justify-content: center;
   padding: 24px;
 }
