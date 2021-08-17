@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
 body {
   padding: 0;
   margin: 0;
@@ -93,59 +94,64 @@ body {
   margin: 3px;
   color: #dbd8d7;
 }
-.recentworkContainer{
+
+.recentworkContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 24px;
 }
 
-.recentWork{
+.recentWork {
   display: flex;
   justify-content: center;
   margin-top: 150px;
-  font-family: Crete Round;
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 52px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
 }
-.recentWorkTitle{
-  font-family: Crete Round;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 44px;
-margin: 0px;
-margin-top: 24px;
+
+.recentWorkTitle {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
+  margin-top: 24px;
 }
-.recentWorkDesc{
-  font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 24px;
+
+.recentWorkDesc {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
 }
-.line{
+
+.line {
   background: #7c6758;
   height: 2px;
   margin-bottom: 120px;
 }
 
-.usedTechs{
+.usedTechs {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
-.tech{
-  margin: 0px 12px;
-  margin-left: 0px;
+
+.tech {
+  margin: 0 12px;
+  margin-left: 0;
   line-height: 20px;
   padding: 10px;
- border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
 }
-.seeProject{
+
+.seeProject {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,27 +159,50 @@ line-height: 24px;
   width: 35%;
   height: 48px;
   margin-top: 14px;
+  margin-bottom: 20px;
 }
 
 .seeProject a {
   text-align: center;
-text-decoration: none;
-font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 17px;
-line-height: 24px;
-color: white; 
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
 }
 
-.works{
-  height: 3455px;
+.works {
+  height: 2800px;
   display: grid;
   grid-template-rows: 2fr repeat(4, 1fr);
   grid-template-columns: 1fr;
+  padding: 22px;
+}
+.wc{
+  color: white;
+}
+.twc{
+  background: rgba(255, 255, 255, 0.24);
+  border: none;
+}
+.spwc{
+  width: 91vw;;
+  margin-bottom: initial;
+
+} 
+.workCardContent {
+  margin: 16px;
+}
+.workCard {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: baseline;
+  background: url(images/workCardbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 12px 0px;
 }
 
-.workCard{
-  background-color: #ff6b00;
-  margin: 5px;
-}
