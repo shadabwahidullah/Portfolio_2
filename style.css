@@ -174,27 +174,32 @@ body {
 }
 
 .works {
-  height: 2800px;
+  height: 4200px;
   display: grid;
-  grid-template-rows: 2fr repeat(4, 1fr);
+  grid-template-rows: 2fr repeat(6, 1fr);
   grid-template-columns: 1fr;
   padding: 22px;
+  margin-bottom: 120px;
 }
-.wc{
+
+.wc {
   color: white;
 }
-.twc{
+
+.twc {
   background: rgba(255, 255, 255, 0.24);
   border: none;
 }
-.spwc{
-  width: 91vw;;
-  margin-bottom: initial;
 
-} 
+.spwc {
+  width: 91vw;
+  margin-bottom: initial;
+}
+
 .workCardContent {
   margin: 16px;
 }
+
 .workCard {
   display: flex;
   justify-content: flex-end;
@@ -203,6 +208,5 @@ body {
   background: url(images/workCardbg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
-
