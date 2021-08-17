@@ -210,3 +210,30 @@ body {
   background-size: cover;
   margin: 12px 0;
 }
+
+.aboutme {
+  height: 4137px;
+  background: black;
+  padding: 24px;
+}
+
+.aboutmeTitle {
+  font-family: "Crete Round", sans-serif;
+  color: #ff6b00;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 88px;
+  margin-top: 120px;
+  margin-bottom: 24px;
+}
+
+.getResume {
+  padding: 0 12px;
+  margin-top: 24px;
+}
+
+.ab {
+  background-color: white;
+  margin-top: 210px;
+}
