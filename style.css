@@ -192,7 +192,7 @@ body {
 }
 
 .spwc {
-  width: 91vw;
+  width: calc(100vw - 22px * 2);
   margin-bottom: initial;
 }
 
@@ -212,7 +212,7 @@ body {
 }
 
 .aboutme {
-  height: 4137px;
+  height: 2480px;
   background: black;
   padding: 24px;
 }
@@ -235,5 +235,63 @@ body {
 
 .ab {
   background-color: white;
-  margin-top: 210px;
+  margin-top: 350px;
+}
+
+.bullets {
+  background: #ff6b00;
+  height: 18px;
+  width: 18px;
+  margin: 12px;
+}
+
+.circle{
+  background: #ff6b00;
+  height: 18px;
+  width: 18px;
+  margin: 12px;
+  border-radius: 50px;
+}
+
+.skillContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillCategory {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skillCategory h1{
+  font-family: InaiMathi;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 44px;
+}
+
+.language{
+  transform: rotate(45deg);
+}
+.skillContainer > * {
+  color: white;
+}
+.skill{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+.subSkill{
+  color: white;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 43px;
+margin: 16px;
 }
