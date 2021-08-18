@@ -85,7 +85,7 @@ body {
 .social_media {
   display: flex;
   flex-direction: row;
-  padding: 0px;
+  padding: 0;
 }
 
 .fa {
@@ -215,6 +215,10 @@ body {
 .aboutme {
   height: 2480px;
   background: black;
+  background-image: url(images/illustration-about-me-mobile.svg);
+  background-repeat: no-repeat;
+  background-position-x: 99.99%;
+  background-position-y: 23%;
   padding: 24px;
 }
 
@@ -300,7 +304,7 @@ body {
   margin: 16px;
 }
 
-.contactMe{
+.contactMe {
   display: flex;
   flex-direction: column;
   padding: 24px;
@@ -308,62 +312,62 @@ body {
   justify-content: center;
 }
 
-.contactDesc{
-  font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 44px;
-text-align: center;
+.contactDesc {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
 }
 
-.textArea{
-  font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 24px;
-border: none;
-border-bottom: 1px solid #DBD8D7;
-padding: 14px;
-margin: 12px 0px ;
+.textArea {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 14px;
+  margin: 12px 0;
 }
 
-.desc{
-  font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 24px;
-color: #3C3A39;
-background: #FBF8F7;  
-border: none;
-padding: 12px;
-margin: 12px 0px;
+.desc {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  background: #fbf8f7;
+  border: none;
+  padding: 12px;
+  margin: 12px 0;
 }
 
-.getInTouchBtn{
+.getInTouchBtn {
   align-self: center;
 }
 
-footer{
+footer {
   display: flex;
   flex-direction: column;
-  border-top: 1px solid #DFE1E6;
+  border-top: 1px solid #dfe1e6;
   align-items: center;
   padding-top: 5px;
 }
 
-footer .social_media > *{
-  color: #505F79;
+footer .social_media > * {
+  color: #505f79;
   height: 40px;
   width: 40px;
 }
 
-.footerLine{
+.footerLine {
   width: 134px;
   height: 5px;
-  background: #0D151E;
-border-radius: 10px;
-margin-bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-bottom: 8px;
 }
