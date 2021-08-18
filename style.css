@@ -85,6 +85,7 @@ body {
 .social_media {
   display: flex;
   flex-direction: row;
+  padding: 0px;
 }
 
 .fa {
@@ -245,7 +246,7 @@ body {
   margin: 12px;
 }
 
-.circle{
+.circle {
   background: #ff6b00;
   height: 18px;
   width: 18px;
@@ -253,7 +254,7 @@ body {
   border-radius: 50px;
 }
 
-.skillContainer{
+.skillContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -265,33 +266,104 @@ body {
   align-items: center;
 }
 
-.skillCategory h1{
-  font-family: InaiMathi;
-font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 44px;
+.skillCategory h1 {
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
 }
 
-.language{
+.language {
   transform: rotate(45deg);
 }
+
 .skillContainer > * {
   color: white;
 }
-.skill{
+
+.skill {
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 5px;
 }
-.subSkill{
+
+.subSkill {
   color: white;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  margin: 16px;
+}
+
+.contactMe{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  height: 844px;
+  justify-content: center;
+}
+
+.contactDesc{
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+}
+
+.textArea{
   font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 22px;
-line-height: 43px;
-margin: 16px;
+font-size: 15px;
+line-height: 24px;
+border: none;
+border-bottom: 1px solid #DBD8D7;
+padding: 14px;
+margin: 12px 0px ;
+}
+
+.desc{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+color: #3C3A39;
+background: #FBF8F7;  
+border: none;
+padding: 12px;
+margin: 12px 0px;
+}
+
+.getInTouchBtn{
+  align-self: center;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #DFE1E6;
+  align-items: center;
+  padding-top: 5px;
+}
+
+footer .social_media > *{
+  color: #505F79;
+  height: 40px;
+  width: 40px;
+}
+
+.footerLine{
+  width: 134px;
+  height: 5px;
+  background: #0D151E;
+border-radius: 10px;
+margin-bottom: 8px;
 }
