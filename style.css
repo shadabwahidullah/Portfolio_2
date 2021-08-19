@@ -45,7 +45,6 @@ body {
   background: #1c1a19;
   background-image: url("images/Illustration.svg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: 97% bottom;
   height: 88vh;
   justify-content: center;
