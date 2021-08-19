@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 
 body {
   padding: 0;
@@ -44,7 +45,6 @@ body {
   background: #1c1a19;
   background-image: url("images/Illustration.svg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: 97% bottom;
   height: 88vh;
   justify-content: center;
@@ -84,6 +84,8 @@ body {
 .social_media {
   display: flex;
   flex-direction: row;
+  font-size: 20px;
+  padding: 0;
 }
 
 .fa {
@@ -92,4 +94,290 @@ body {
   width: 50px;
   margin: 3px;
   color: #dbd8d7;
+}
+
+.recentworkContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recentWork {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.recentWorkTitle {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.recentWorkDesc {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.line {
+  background: #7c6758;
+  height: 2px;
+  margin-bottom: 120px;
+}
+
+.usedTechs {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tech {
+  margin: 0 12px;
+  margin-left: 0;
+  line-height: 20px;
+  padding: 10px;
+  border: 1px solid #8993a4;
+}
+
+.mybtn {
+  background-color: #ff6b00;
+  border: none;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  width: 35%;
+  height: 48px;
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.mybtn:hover {
+  background-color: #fff5e1;
+  border: 2px solid #ff6b00;
+  color: #ff6b00;
+}
+
+.mybtn:active {
+  background-color: #e05304;
+  border: none;
+  color: #f4f1f0;
+}
+
+.works {
+  height: 4200px;
+  display: grid;
+  grid-template-rows: 2fr repeat(6, 1fr);
+  grid-template-columns: 100%;
+  margin: 22px;
+  margin-bottom: 120px;
+}
+
+.wc {
+  color: white;
+}
+
+.twc {
+  background: rgba(255, 255, 255, 0.24);
+  border: none;
+}
+
+.spwc {
+  width: 100%;
+  margin-bottom: initial;
+}
+
+.workCardContent {
+  margin: 16px;
+}
+
+.workCard {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: baseline;
+  background: url(images/workCardbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 12px 0;
+}
+
+.aboutme {
+  height: 2480px;
+  background: black;
+  background-image: url(images/illustration-about-me-mobile.svg);
+  background-repeat: no-repeat;
+  background-position-x: 99.99%;
+  background-position-y: 20%;
+  padding: 24px;
+}
+
+.aboutmeTitle {
+  font-family: "Crete Round", sans-serif;
+  color: #ff6b00;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 88px;
+  margin-top: 120px;
+  margin-bottom: 24px;
+}
+
+.getResume {
+  width: 50%;
+  padding: 0 12px;
+  margin-top: 24px;
+}
+
+.ab {
+  background-color: white;
+  margin-top: 250px;
+}
+
+.bullets {
+  background: #ff6b00;
+  height: 18px;
+  width: 18px;
+  margin: 12px;
+}
+
+.circle {
+  background: #ff6b00;
+  height: 18px;
+  width: 18px;
+  margin: 12px;
+  border-radius: 50px;
+}
+
+.skillContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.skillCategory {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skillCategory h1 {
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.language {
+  transform: rotate(45deg);
+}
+
+.skillContainer > * {
+  color: white;
+}
+
+.skill {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.subSkill {
+  color: white;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  margin: 16px;
+}
+
+.contactMe {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  height: 844px;
+  justify-content: center;
+}
+
+.contactDesc {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #172b4d;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.mytextArea {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  width: calc(100% - 24px);
+  padding: 14px;
+  margin: 12px 0;
+}
+
+.desc {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  background: #fbf8f7;
+  border: none;
+  width: calc(100% - 24px);
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.getInTouchBtn {
+  align-self: center;
+}
+
+.myfooter {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #dfe1e6;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.myfooter .social_media > * {
+  color: #505f79;
+  height: 40px;
+  width: 40px;
+  margin: 0;
+}
+
+.footerLine {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-bottom: 8px;
 }
