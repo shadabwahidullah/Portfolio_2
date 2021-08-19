@@ -182,8 +182,8 @@ body {
   height: 4200px;
   display: grid;
   grid-template-rows: 2fr repeat(6, 1fr);
-  grid-template-columns: 1fr;
-  padding: 22px;
+  grid-template-columns: 100%;
+  margin: 22px;
   margin-bottom: 120px;
 }
 
