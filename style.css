@@ -362,7 +362,7 @@ body {
   flex-direction: column;
   border-top: 1px solid #dfe1e6;
   align-items: center;
-  padding-top: 5px;
+  padding-top: 25px;
 }
 
 .myfooter .social_media > * {
