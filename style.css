@@ -327,7 +327,8 @@ body {
   line-height: 44px;
   text-align: center;
 }
-input [type=text]{
+
+.mytextArea {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -339,18 +340,6 @@ input [type=text]{
   padding: 14px;
   margin: 12px 0;
 }
-/* .mytextArea {
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  border: none;
-  border-bottom: 1px solid #dbd8d7;
-  width: calc(100%-48px);
-  padding: 14px;
-  margin: 12px 0;
-} */
 
 .desc {
   font-family: Inter, sans-serif;
