@@ -152,27 +152,32 @@ body {
   border: 1px solid #8993a4;
 }
 
-.seeProject {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.btn {
   background-color: #ff6b00;
+  border: none;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
   width: 35%;
   height: 48px;
   margin-top: 14px;
   margin-bottom: 20px;
 }
 
-.seeProject a {
-  text-align: center;
-  text-decoration: none;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  color: white;
+.btn:hover{
+  background-color: #FFF5E1;
+  border: 2px solid #ff6b00;
+  color: #ff6b00;
 }
+
+.btn:active{
+  background-color: #E05304;
+  border: none;
+  color: #F4F1F0;
+}
+
 
 .works {
   height: 4200px;
@@ -218,7 +223,7 @@ body {
   background-image: url(images/illustration-about-me-mobile.svg);
   background-repeat: no-repeat;
   background-position-x: 99.99%;
-  background-position-y: 23%;
+  background-position-y: 20%;
   padding: 24px;
 }
 
@@ -234,13 +239,14 @@ body {
 }
 
 .getResume {
+  width: 50%;
   padding: 0 12px;
   margin-top: 24px;
 }
 
 .ab {
   background-color: white;
-  margin-top: 350px;
+  margin-top: 250px;
 }
 
 .bullets {
@@ -262,6 +268,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0;
 }
 
 .skillCategory {
@@ -316,6 +323,7 @@ body {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
+  color: #172B4D;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
