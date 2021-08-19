@@ -166,18 +166,17 @@ body {
   margin-bottom: 20px;
 }
 
-.btn:hover{
-  background-color: #FFF5E1;
+.btn:hover {
+  background-color: #fff5e1;
   border: 2px solid #ff6b00;
   color: #ff6b00;
 }
 
-.btn:active{
-  background-color: #E05304;
+.btn:active {
+  background-color: #e05304;
   border: none;
-  color: #F4F1F0;
+  color: #f4f1f0;
 }
-
 
 .works {
   height: 4200px;
@@ -323,7 +322,7 @@ body {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
-  color: #172B4D;
+  color: #172b4d;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
