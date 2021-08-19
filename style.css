@@ -357,7 +357,7 @@ body {
   align-self: center;
 }
 
-footer {
+.myfooter {
   display: flex;
   flex-direction: column;
   border-top: 1px solid #dfe1e6;
@@ -365,7 +365,7 @@ footer {
   padding-top: 5px;
 }
 
-footer .social_media > * {
+.myfooter .social_media > * {
   color: #505f79;
   height: 40px;
   width: 40px;
