@@ -166,13 +166,13 @@ body {
   margin-bottom: 20px;
 }
 
-.btn:hover {
+.mybtn:hover {
   background-color: #fff5e1;
   border: 2px solid #ff6b00;
   color: #ff6b00;
 }
 
-.btn:active {
+.mybtn:active {
   background-color: #e05304;
   border: none;
   color: #f4f1f0;
@@ -197,7 +197,7 @@ body {
 }
 
 .spwc {
-  width: calc(100vw - 22px * 2);
+  width: 100%;
   margin-bottom: initial;
 }
 
