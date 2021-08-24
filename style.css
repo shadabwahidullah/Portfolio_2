@@ -309,3 +309,21 @@ body {
   line-height: 43px;
   margin: 16px;
 }
+
+.contactMe {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  height: 844px;
+  justify-content: center;
+}
+
+.contactDesc {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #172b4d;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+}
