@@ -370,3 +370,26 @@ body {
   align-self: center;
   padding: 12px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-part {
+  color: #505F79;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+}
+
+.last-line {
+  width: 140px;
+  height: 5px;
+  border-radius: 25px;
+  margin-bottom: 8px;
+  background: #0D151E;
+  align-self: center;
+}
+
