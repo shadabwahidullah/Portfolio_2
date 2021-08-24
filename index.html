@@ -223,17 +223,28 @@
       <form action="/my-handling-form-page" method="post" class="form">
         <ul>
           <li>
-            <input type="text" name="Fullname" placeholder="Full name" maxlength="30">
+            <input class="mytextArea"
+              type="text"
+              name="Fullname"
+              placeholder="Full name"
+              maxlength="30"
+            />
           </li>
           <li>
-            <input type="email" name="mail" placeholder="Email address">
+            <input class="mytextArea" type="email" name="mail" placeholder="Email address" />
           </li>
           <li>
-          <textarea placeholder="Enter text here" maxlength="500" name="comments"></textarea>
+            <textarea
+              class="desc"
+              cols="30"
+              rows="5"
+              placeholder="Enter Text here"
+              maxlength="500"
+              name="comments"
+            ></textarea>
           </li>
-          <button type="submit">Get in touch</button>
-         
         </ul>
+        <button class="mybtn getInTouchBtn" type="submit">Get in touch</button>
       </form>
     </section>
   </body>

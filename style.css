@@ -329,6 +329,8 @@ body {
 }
 
 .form {
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -337,10 +339,34 @@ body {
   padding: 0%;
 }
 
-.form li {
-  margin-bottom: 24px;
+.mytextArea {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  width: calc(100% - 24px);
+  padding: 14px;
+  margin: 12px 0;
 }
 
-.form ul li * {
+.desc {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  background: #fbf8f7;
   border: none;
+  width: calc(100% - 24px);
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.getInTouchBtn{
+  align-self: center;
+  padding: 12px;
 }
