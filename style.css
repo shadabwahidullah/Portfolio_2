@@ -328,6 +328,17 @@ body {
   text-align: center;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form ul {
+  list-style: none;
+  padding: 0%;
+}
+
 .mytextArea {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -355,8 +366,13 @@ body {
   margin: 12px 0;
 }
 
+.desc::placeholder {
+  color: #3c3a39;
+}
+
 .getInTouchBtn {
   align-self: center;
+  padding: 12px;
 }
 
 .myfooter {
@@ -371,7 +387,8 @@ body {
   color: #505f79;
   height: 40px;
   width: 40px;
-  margin: 0;
+  margin: 5px;
+  margin-top: 0;
 }
 
 .footerLine {
