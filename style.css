@@ -366,30 +366,38 @@ body {
   margin: 12px 0;
 }
 
+.desc::placeholder{
+  color: #3c3a39;
+}
+
+
 .getInTouchBtn{
   align-self: center;
   padding: 12px;
 }
 
-.footer {
+.myfooter {
   display: flex;
   flex-direction: column;
+  border-top: 1px solid #dfe1e6;
+  align-items: center;
+  padding-top: 25px;
 }
 
-.last-part {
-  color: #505F79;
-  font-size: 30px;
-  height: 50px;
-  width: 50px;
-  margin: 3px;
+.myfooter .social_media > * {
+  color: #505f79;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  margin-top: 0px;
 }
 
-.last-line {
-  width: 140px;
+.footerLine {
+  width: 134px;
   height: 5px;
-  border-radius: 25px;
+  background: #0d151e;
+  border-radius: 10px;
   margin-bottom: 8px;
-  background: #0D151E;
-  align-self: center;
 }
+
 

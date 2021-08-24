@@ -220,10 +220,11 @@
         interested in hearing about new projects, so if you'd like to chat
         please get in touch.
       </h3>
-      <form action="/my-handling-form-page" method="post" class="form">
+      <form action="https://formspree.io/f/xpzkoeda" method="post" class="form">
         <ul>
           <li>
             <input class="mytextArea"
+              required
               type="text"
               name="Fullname"
               placeholder="Full name"
@@ -231,10 +232,11 @@
             />
           </li>
           <li>
-            <input class="mytextArea" type="email" name="mail" placeholder="Email address" />
+            <input class="mytextArea" required type="email" name="mail" placeholder="Email address" />
           </li>
           <li>
             <textarea
+            required
               class="desc"
               cols="30"
               rows="5"
@@ -247,17 +249,16 @@
         <button class="mybtn getInTouchBtn" type="submit">Get in touch</button>
       </form>
     </section>
-    <hr>
     <footer class="footer">
-    
-      <ul class="social_media last-part">
-        <li class=" fa fa-linkedin fa-lg last-part"><a href="#"></a></li>
-        <li class=" fa fa-github fa-lg last-part"><a href="#"></a></li>
-        <li class=" fa fa-twitter fa-lg last-part"><a href="#"></a></li>
-        <li class=" fa fa-facebook fa-lg last-part"><a href="#"></a></li>
-        <li class=" fa fa-youtube fa-lg last-part"><a href="#"></a></li>
-      </ul>
-      <div class="last-line"></div>
+      <div class="myfooter">
+        <ul class="social_media">
+          <li class="fa fa-linkedin fa-2x"><a href="#"></a></li>
+          <li class="fa fa-github fa-2x"><a href="#"></a></li>
+          <li class="fa fa-twitter fa-2x"><a href="#"></a></li>
+          <li class="fa fa-facebook fa-2x"><a href="#"></a></li>
+          <li class="fa fa-youtube fa-2x"><a href="#"></a></li>
+        </ul>
+        <div class="footerLine"></div>
     </footer>
   </body>
 </html>
