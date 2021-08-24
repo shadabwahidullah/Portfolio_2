@@ -366,12 +366,11 @@ body {
   margin: 12px 0;
 }
 
-.desc::placeholder{
+.desc::placeholder {
   color: #3c3a39;
 }
 
-
-.getInTouchBtn{
+.getInTouchBtn {
   align-self: center;
   padding: 12px;
 }
@@ -389,7 +388,7 @@ body {
   height: 40px;
   width: 40px;
   margin: 5px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .footerLine {
@@ -399,5 +398,3 @@ body {
   border-radius: 10px;
   margin-bottom: 8px;
 }
-
-
