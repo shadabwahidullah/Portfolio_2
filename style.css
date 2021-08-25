@@ -25,6 +25,7 @@ body {
   color: white;
   flex-grow: 10;
   padding-left: 5%;
+  text-decoration: none;
 }
 
 .menu {
