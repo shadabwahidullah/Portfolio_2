@@ -186,7 +186,7 @@ body {
 }
 
 .works {
-  height: 4200px;
+  height: 3355px;
   display: grid;
   grid-template-rows: 2fr repeat(6, 1fr);
   grid-template-columns: 100%;
@@ -505,7 +505,7 @@ body {
     margin: 0%;
     padding-left: 24px;
   }
-  .works{
+  .works {
     height: 2205px;
     grid-template-rows: 1fr 2fr;
   }
@@ -516,26 +516,41 @@ body {
     font-size: 22px;
     line-height: 28px;
   }
-  .usedTechs{
+  .usedTechs {
     margin: auto;
     margin-left: 0%;
     padding-left: 24px;
   }
 
-  .recentworkContainer .mybtn{
+  .recentworkContainer .mybtn {
     margin-left: 24px;
   }
-  .workCards{
+  .workCards {
     display: grid;
+    padding-bottom: 130px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
 
-  .workCard{
+  .workCard {
     margin-right: 24px;
   }
 
-  .spwc{
+  .workCard:hover {
+    background: url("images/workCardHover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .workCard:hover .spwc{
+    display: block;
+  }
+
+  .workCard:hover .workCardContent{
+    display: none;
+  }
+
+  .spwc {
     display: none;
   }
 }
