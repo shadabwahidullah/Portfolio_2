@@ -50,7 +50,8 @@ body {
   background: #1c1a19;
   background-image: url("images/Illustration.svg");
   background-repeat: no-repeat;
-  background-position: 97% bottom;
+  background-position: 100% bottom;
+  background-size: 50%;
   height: 88vh;
   justify-content: center;
   padding: 24px;
@@ -405,7 +406,7 @@ body {
 }
 
 @media (min-width: 600px) {
-  .toolbar{
+  .toolbar {
     padding: 0% 10%;
     height: 72px;
   }
@@ -437,5 +438,37 @@ body {
     width: 18px;
     margin: 3px;
     color: white;
+  }
+  .intro {
+    align-self: center;
+  }
+  .headline {
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+    background-image: url("images/Illustration-desktop.svg");
+    background-size: auto;
+  }
+  .hey {
+    font-size: 72px;
+    line-height: 81px;
+  }
+  .iam {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .about {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .social_media {
+    order: -1;
+    flex-direction: column;
+    align-self: center;
   }
 }
