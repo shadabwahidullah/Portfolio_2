@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 
 body {
   padding: 0;
@@ -26,6 +26,10 @@ body {
   flex-grow: 10;
   padding-left: 5%;
   text-decoration: none;
+}
+
+.desktop_menu {
+  display: none;
 }
 
 .menu {
@@ -398,4 +402,36 @@ body {
   background: #0d151e;
   border-radius: 10px;
   margin-bottom: 8px;
+}
+
+@media (min-width: 600px) {
+  .name {
+    font-size: 21px;
+    line-height: 30px;
+    padding-left: 10%;
+  }
+  .menu {
+    display: none;
+  }
+  .desktop_menu {
+    display: flex;
+    flex-grow: 5;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .d_menu_item {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .toolicon {
+    height: 18px;
+    width: 18px;
+    margin: 3px;
+    color: white;
+  }
 }
