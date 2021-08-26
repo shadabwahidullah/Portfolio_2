@@ -651,11 +651,12 @@ body {
   .footerLine {
     display: none;
   }
-  .myfooter .social_media{
+
+  .myfooter .social_media {
     list-style: none;
   }
 
   .myfooter .social_media li a * {
-    color: #505F79;
+    color: #505f79;
   }
 }
