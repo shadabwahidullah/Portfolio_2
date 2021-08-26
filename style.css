@@ -186,7 +186,7 @@ body {
 }
 
 .works {
-  height: 3355px;
+  height: 3800px;
   display: grid;
   grid-template-rows: 2fr repeat(6, 1fr);
   grid-template-columns: 100%;
@@ -218,6 +218,7 @@ body {
   flex-direction: column;
   align-items: baseline;
   background: url(images/workCardbg.png);
+  height: 446px;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 12px 0;
@@ -618,5 +619,13 @@ line-height: 36px;
   .getInTouchBtn {
     align-self: auto;
     width: 162px;
+  }
+
+  .myfooter{
+    padding: 28px 0px;
+  }
+
+  .footerLine{
+    display: none;
   }
 }
