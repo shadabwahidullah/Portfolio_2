@@ -50,7 +50,7 @@ body {
   background: #1c1a19;
   background-image: url("images/Illustration.svg");
   background-repeat: no-repeat;
-  background-position: 100% bottom;
+  background-position: 100% 190%;
   background-size: 50%;
   height: 88vh;
   justify-content: center;
@@ -467,7 +467,7 @@ body {
     font-size: 20px;
     line-height: 32px;
   }
-  .social_media {
+  .social_media_desktop {
     order: -1;
     flex-direction: column;
     align-self: center;
@@ -542,15 +542,60 @@ body {
     background-size: cover;
   }
 
-  .workCard:hover .spwc{
+  .workCard:hover .spwc {
     display: block;
   }
 
-  .workCard:hover .workCardContent{
+  .workCard:hover .workCardContent {
     display: none;
   }
 
   .spwc {
     display: none;
+  }
+
+  .aboutme {
+    padding: 0% 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 1fr 2fr;
+    height: 1295px;
+    background-image: url("images/illustration-about\ me\ Desktop.svg");
+  }
+
+  .aboutmeWrapper {
+    grid-column: span 3;
+  }
+
+  .aboutmeDesc {
+    width: 50%;
+    padding: 0%;
+  }
+
+  .getResume {
+    width: 171px;
+  }
+
+  .ab {
+    grid-column: span 3;
+    margin-top: 130px;
+    margin-bottom: 110px;
+  }
+
+  .skillContainer {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
+  }
+  .skillCategory{
+    align-self: baseline;
+  }
+  .skillTitle {
+    order: -1;
+  }
+  .skill{
+    display: block;
+    align-self: baseline;
   }
 }
