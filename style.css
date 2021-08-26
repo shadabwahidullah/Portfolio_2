@@ -588,14 +588,32 @@ body {
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 100px;
   }
-  .skillCategory{
+  .skillCategory {
     align-self: baseline;
   }
   .skillTitle {
     order: -1;
   }
-  .skill{
+  .skill {
     display: block;
     align-self: baseline;
+  }
+  .contactMe {
+    height: 590px;
+    margin: 0% 10%;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 24px ;
+  }
+  .contactDesc {
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+  }
+
+  .getInTouchBtn {
+    align-self: auto;
+    /* padding: 12px; */
   }
 }
