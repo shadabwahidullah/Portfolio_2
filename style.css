@@ -50,8 +50,7 @@ body {
   background: #1c1a19;
   background-image: url("images/Illustration.svg");
   background-repeat: no-repeat;
-  background-position: 100% 190%;
-  background-size: 50%;
+  background-position: 100% bottom;
   height: 88vh;
   justify-content: center;
   padding: 24px;
@@ -407,7 +406,7 @@ body {
   margin-bottom: 8px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .toolbar {
     padding: 0% 10%;
     height: 72px;
@@ -651,5 +650,12 @@ body {
 
   .footerLine {
     display: none;
+  }
+  .myfooter .social_media{
+    list-style: none;
+  }
+
+  .myfooter .social_media li a * {
+    color: #505F79;
   }
 }
