@@ -540,6 +540,7 @@ body {
     background: url("images/workCardHover.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border: 2px solid black;
   }
 
   .workCard:hover .spwc {
@@ -570,6 +571,8 @@ body {
   .aboutmeDesc {
     width: 50%;
     padding: 0%;
+    font-size: 24px;
+line-height: 36px;
   }
 
   .getResume {
@@ -614,6 +617,6 @@ body {
 
   .getInTouchBtn {
     align-self: auto;
-    /* padding: 12px; */
+    width: 162px;
   }
 }
