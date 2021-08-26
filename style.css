@@ -494,7 +494,7 @@ body {
     display: grid;
     margin: 135px 0;
     grid-column: span 2;
-    grid-template-columns: 5fr 12fr;
+    grid-template-columns: 6fr 12fr;
     align-items: center;
   }
 
