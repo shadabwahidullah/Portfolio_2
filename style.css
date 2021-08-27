@@ -105,6 +105,13 @@ body {
   width: 50px;
   margin: 3px;
   color: #dbd8d7;
+  transition: margin, color;
+  transition-duration: 1s;
+}
+
+.fa:hover{
+  margin: 20px;
+  color: #e05304;
 }
 
 .recentworkContainer {
