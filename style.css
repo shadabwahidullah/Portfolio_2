@@ -576,10 +576,10 @@ body {
 
   @keyframes popup {
     from {
-      height: 0%;
+      height: 300px;
     }
     to {
-      height: 30vh;
+      height: 446px;
     }
   }
   .workCard:hover {
