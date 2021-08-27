@@ -94,10 +94,6 @@ body {
   list-style: none;
 }
 
-.myfooter .social_media li a * {
-  color: #505f79;
-}
-
 .fa {
   font-size: 30px;
   height: 50px;
@@ -403,6 +399,10 @@ body {
   margin-top: 0;
 }
 
+.myfooter .social_media li a * {
+  color: #505f79;
+}
+
 .footerLine {
   width: 134px;
   height: 5px;
@@ -661,6 +661,4 @@ body {
   .myfooter .social_media {
     list-style: none;
   }
-
-  
 }
