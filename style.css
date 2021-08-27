@@ -21,6 +21,8 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
+  transition: font-size;
+  transition-duration: 2s;
   line-height: 24px;
   color: white;
   flex-grow: 10;
@@ -28,6 +30,9 @@ body {
   text-decoration: none;
 }
 
+.name:hover {
+  font-size: 30px;
+}
 .desktop_menu {
   display: none;
 }
