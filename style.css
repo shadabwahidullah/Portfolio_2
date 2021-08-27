@@ -21,11 +21,17 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
+  transition: font-size;
+  transition-duration: 2s;
   line-height: 24px;
   color: white;
   flex-grow: 10;
   padding-left: 5%;
   text-decoration: none;
+}
+
+.name:hover {
+  font-size: 30px;
 }
 
 .desktop_menu {
@@ -100,6 +106,13 @@ body {
   width: 50px;
   margin: 3px;
   color: #dbd8d7;
+  transition: margin, color;
+  transition-duration: 1s;
+}
+
+.fa:hover {
+  margin: 20px;
+  color: #e05304;
 }
 
 .recentworkContainer {
@@ -558,6 +571,18 @@ body {
 
   .workCard {
     margin-right: 24px;
+    animation-name: popup;
+    animation-duration: 3s;
+  }
+
+  @keyframes popup {
+    from {
+      height: 300px;
+    }
+
+    to {
+      height: 446px;
+    }
   }
 
   .workCard:hover {
