@@ -10,6 +10,10 @@
 ### Prerequisites
 
 there are no prerequisites.
+
+## Getting Started
+
+For running this project locally you have to clone this project in your computer and open <strong>index.html</strong> file with your browser.
 ## Authors
 
 
