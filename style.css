@@ -570,8 +570,18 @@ body {
 
   .workCard {
     margin-right: 24px;
+    animation-name: popup;
+    animation-duration: 3s;
   }
 
+  @keyframes popup {
+    from {
+      height: 0%;
+    }
+    to {
+      height: 30vh;
+    }
+  }
   .workCard:hover {
     background: url("images/workCardHover.png");
     background-repeat: no-repeat;
