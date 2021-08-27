@@ -33,6 +33,7 @@ body {
 .name:hover {
   font-size: 30px;
 }
+
 .desktop_menu {
   display: none;
 }
@@ -109,7 +110,7 @@ body {
   transition-duration: 1s;
 }
 
-.fa:hover{
+.fa:hover {
   margin: 20px;
   color: #e05304;
 }
@@ -578,10 +579,12 @@ body {
     from {
       height: 300px;
     }
+
     to {
       height: 446px;
     }
   }
+
   .workCard:hover {
     background: url("images/workCardHover.png");
     background-repeat: no-repeat;
