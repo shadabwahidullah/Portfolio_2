@@ -8,7 +8,7 @@
 
 ## Link to website
 
-you can checkout website [here] (https://shadabwahidullah.github.io/Portfolio_2/)
+you can checkout website [here](https://shadabwahidullah.github.io/Portfolio_2/)
 
 ### Prerequisites
 
