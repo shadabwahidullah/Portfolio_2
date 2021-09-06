@@ -8,6 +8,59 @@ body {
   margin: 0;
 }
 
+/* SERGIO START */
+
+.menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  /* border: 3px solid #fff; */
+}
+.menuBtn__burger {
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  transition: all .5s ease-in-out;
+}
+.menuBtn__burger::before,
+.menuBtn__burger::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  transition: all .5s ease-in-out;
+}
+.menuBtn__burger::before {
+  transform: translateY(-16px);
+}
+.menuBtn__burger::after {
+  transform: translateY(16px);
+}
+/* ANIMATION */
+.menu-btn.open .menuBtn__burger {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+.menu-btn.open .menuBtn__burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menuBtn__burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
+/* SERGIO END */
+
 .toolbar {
   display: flex;
   background: #3c3a39;
@@ -50,6 +103,23 @@ body {
   margin: 5px;
   border-radius: 15px;
 }
+
+/* .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  color: white;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding-top: 4rem;
+} */
+
 
 .headline {
   display: flex;
