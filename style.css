@@ -111,7 +111,7 @@ body {
 }
 
 .fa:hover {
-  margin: 20px;
+  margin: 20px 3px;
   color: #e05304;
 }
 
@@ -416,6 +416,11 @@ body {
   color: #505f79;
 }
 
+.myfooter .social_media li a *:hover {
+  margin: 3px;
+  color: #e05304;
+}
+
 .footerLine {
   width: 134px;
   height: 5px;
@@ -681,9 +686,5 @@ body {
 
   .footerLine {
     display: none;
-  }
-
-  .myfooter .social_media {
-    list-style: none;
   }
 }
