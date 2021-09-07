@@ -7,14 +7,10 @@ function menubtnClicked() {
   document.querySelector('.closebtn').classList.toggle('expand');
   document.querySelector('.toolbar').classList.toggle('height100');
 }
-// console.log(typeof.temp);
 menubtn.addEventListener('click', menubtnClicked);
 
 const closemenu = document.querySelector('.closebtn');
 closemenu.addEventListener('click', menubtnClicked);
-
-// let menuitems = document.querySelector('.expitem');
-// menuitems.addEventListener('click',menubtnClicked);
 
 document.querySelectorAll('.expitem').forEach((item) => {
   item.addEventListener('click', menubtnClicked);

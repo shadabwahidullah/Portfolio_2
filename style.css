@@ -719,8 +719,6 @@ body {
 
 .closebtn {
   align-self: last baseline;
-
-  /* justify-self: right; */
   height: 20px;
   width: 20px;
   margin: 20px 0;
