@@ -11,6 +11,8 @@ body {
 .toolbar {
   display: flex;
   background: #3c3a39;
+  position: fixed;
+  width: 100vw;
   height: 50px;
   align-items: center;
   justify-content: space-evenly;

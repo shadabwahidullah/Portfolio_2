@@ -13,3 +13,9 @@ menubtn.addEventListener('click',menubtnClicked);
 
 let closemenu = document.querySelector('.closebtn');
 closemenu.addEventListener('click',menubtnClicked);
+
+// let menuitems = document.querySelector('.expitem');
+// menuitems.addEventListener('click',menubtnClicked);
+
+document.querySelectorAll('.expitem').forEach(item => {
+  item.addEventListener('click', menubtnClicked)});
