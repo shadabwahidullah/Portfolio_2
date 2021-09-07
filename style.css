@@ -11,6 +11,8 @@ body {
 .toolbar {
   display: flex;
   background: #3c3a39;
+  position: fixed;
+  width: 100vw;
   height: 50px;
   align-items: center;
   justify-content: space-evenly;
@@ -687,4 +689,47 @@ body {
   .footerLine {
     display: none;
   }
+}
+
+.menuexpand {
+  display: flex;
+  flex-direction: column;
+  width: 92vw;
+  height: 100vh;
+
+  /* align-items: flex-start; */
+  margin: 1008px 24px;
+}
+
+.menuexpand > a {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  text-decoration: none;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.expand {
+  display: none;
+}
+
+.closebtn {
+  align-self: last baseline;
+  height: 20px;
+  width: 20px;
+  margin: 20px 0;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+
+.height100 {
+  height: 100vh;
 }

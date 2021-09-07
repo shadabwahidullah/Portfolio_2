@@ -23,14 +23,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="index.js" defer></script>
   </head>
   <body tabindex="0" class="container">
     <header class="toolbar">
       <a class="name" href="#">Wahid Shadab</a>
-      <nav class="menu">
+      <nav class="menu" id="menu">
         <div class="menu_item"></div>
         <div class="menu_item"></div>
         <div class="menu_item"></div>
+      </nav>
+      <nav class="menuexpand expand">
+        <img src="images/close.png" alt="menu close button" class="closebtn expand">
+        <a class="d_menu_item expitem" href="#portfolio">Portfolio</a>
+        <hr>
+        <a class="d_menu_item expitem" href="#about">About</a>
+        <hr>
+        <a class="d_menu_item expitem" href="#contact">Contact</a>
+        <hr>
       </nav>
       <nav class="desktop_menu">
         <a class="d_menu_item" href="#">Portfolio</a>
@@ -70,7 +80,7 @@
         </li>
       </ul>
     </section>
-    <section class="works">
+    <section class="works" id="portfolio">
       <div class="recentworkContainer">
         <div class="recentWorkSectionTitle">
           <h1 class="recentWork">My Recent Work</h1>
@@ -200,7 +210,7 @@
         </div>
       </div>
     </section>
-    <section class="aboutme">
+    <section class="aboutme" id="about">
       <div class="aboutmeWrapper">
         <h3 class="aboutmeTitle">About me</h3>
         <p class="aboutmeDesc recentWorkDesc wc">
@@ -254,7 +264,7 @@
         </li>
       </ul>
     </section>
-    <section class="contactMe">
+    <section class="contactMe" id="contact">
       <h3 class="contactDesc">
         I'm always <br />
         interested in hearing about new projects, so if you'd like to chat
