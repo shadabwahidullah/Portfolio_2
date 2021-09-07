@@ -3,6 +3,7 @@
 
 const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
+const menu = document.querySelector('menu');
 menuBtn.addEventListener('click', () => {
   if(!menuOpen) {
     menuBtn.classList.add('open');
@@ -12,6 +13,13 @@ menuBtn.addEventListener('click', () => {
     menuOpen = false;
   }
 });
+
+// let menu = document.querySelector('menu'); 
+
+// function menuOpen() {
+//   menu.style.display: block;
+// }
+
 
 // var menu = document.querySelector(".menu");
 // var menuBbtn__burger = document.querySelector(".menuBbtn__burger");
