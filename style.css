@@ -98,7 +98,8 @@ body {
   list-style:none;
   /* display: block; */
   font-family: 'Inter', sans-serif;
-  padding-top: 60%;
+  background-color: #3c3a39;
+  background:#3c3a39;
 
 }
 
@@ -109,8 +110,8 @@ body {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 4px;
-  letter-spacing: 0em;
+ 
+  /* letter-spacing: 01.5em; */
   text-align: left;
   background-color: #3c3a39;
   background:#3c3a39;
