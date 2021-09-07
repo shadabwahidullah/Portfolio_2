@@ -23,31 +23,32 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script type="text/javascript" src="index.js" defer></script>
   </head>
   <body tabindex="0" class="container">
     <header class="toolbar">
       <a class="name" href="#">Wahid Shadab</a>
-      <!-- SERGIO START -->
-      <div class="menu-btn">
-        <div class="menuBtn__burger"></div>
-      </div>
-      <ul class="menuitem">
-        <li><a class="menuLink" href="#works">Portfolio</a></li>
-        <li><hr></li>
-        <li><a class="menuLink" href="#aboutme">About</a></li>
-        <li><hr></li>
-        <li><a class="menuLink" href="#contactMe">Contact</a></li>
-        <li><hr></li>
-      </ul>
+      <nav class="menu" id="menu">
+        <div class="menu_item"></div>
+        <div class="menu_item"></div>
+        <div class="menu_item"></div>
+      </nav>
+      <nav class="menuexpand expand">
+        <img src="images/close.png" alt="menu close button" class="closebtn expand">
+        <a class="d_menu_item" href="#">Portfolio</a>
+        <hr>
+        <a class="d_menu_item" href="#">About</a>
+        <hr>
+        <a class="d_menu_item" href="#">Contact</a>
+        <hr>
+      </nav>
       <nav class="desktop_menu">
         <a class="d_menu_item" href="#">Portfolio</a>
         <a class="d_menu_item" href="#">About</a>
         <a class="d_menu_item" href="#">Contact</a>
         <a class="d_menu_item fa-envelope-o fa-lg toolicon fa" href="#"></a>
       </nav>
-      <script src="index.js"></script>
     </header>
-    <!-- SERGIO END -->
     <section class="headline">
       <div class="intro">
         <h3 class="hey">
@@ -79,7 +80,7 @@
         </li>
       </ul>
     </section>
-    <section class="works" id="works">
+    <section class="works">
       <div class="recentworkContainer">
         <div class="recentWorkSectionTitle">
           <h1 class="recentWork">My Recent Work</h1>
@@ -209,7 +210,7 @@
         </div>
       </div>
     </section>
-    <section class="aboutme" id="aboutme">
+    <section class="aboutme">
       <div class="aboutmeWrapper">
         <h3 class="aboutmeTitle">About me</h3>
         <p class="aboutmeDesc recentWorkDesc wc">
@@ -263,7 +264,7 @@
         </li>
       </ul>
     </section>
-    <section class="contactMe" id="contactMe">
+    <section class="contactMe">
       <h3 class="contactDesc">
         I'm always <br />
         interested in hearing about new projects, so if you'd like to chat
