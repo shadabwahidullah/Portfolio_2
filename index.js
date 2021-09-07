@@ -3,17 +3,29 @@
 
 const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
-const menu = document.querySelector('menu');
 menuBtn.addEventListener('click', () => {
   if(!menuOpen) {
     menuBtn.classList.add('open');
+    document.querySelector('.toolbar').style.height = "88vh";
+    document.querySelector('.menuitem').style.display = "flex";
     menuOpen = true;
   } else {
     menuBtn.classList.remove('open');
+    document.querySelector('.toolbar').style.height = "50px";
+    document.querySelector('.menuitem').style.display = "none";
     menuOpen = false;
   }
 });
-
+var toolbar = document.querySelector('.toolbar');
+var menuitem = document.querySelector('.menuitem');
+menuitem.addEventListener()
+function x(menuOpen,menuitem) {
+  if (!menuOpen) {
+    menuitem.style.display = 'none';
+  }else{
+    menuitem.style.display = 'flex';
+}
+}
 // let menu = document.querySelector('menu'); 
 
 // function menuOpen() {
