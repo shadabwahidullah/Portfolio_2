@@ -59,7 +59,7 @@ body {
   background-image: url("images/Illustration.svg");
   background-repeat: no-repeat;
   background-position: 100% bottom;
-  height: 88vh;
+  height: 100vh;
   justify-content: center;
   padding: 24px;
 }
@@ -434,6 +434,7 @@ body {
 @media (min-width: 1000px) {
   .toolbar {
     padding: 0% 10%;
+    width: 90vw;
     height: 72px;
   }
 
