@@ -26,6 +26,28 @@
     <script src="index.js" defer></script>
   </head>
   <body tabindex="0" class="container">
+    <section class="popup">
+      <div class="popupWrapper">
+        <h1 class="popupTitle">Keeping track</h1>
+        <p class="closebutn">&times;</p>
+        <ul class="usedTechs span2c popupUsedTechs">
+          <li class="tech">HTML</li>
+          <li class="tech">Bootstrap</li>
+          <li class="tech">Ruby On Rails</li>
+        </ul>
+        <img class="popupImage" src="images/recentWork.png" alt="The project screenshot" />
+        <div class="popupBody">
+          <p class="popupDesc">
+            Lorem Ipsum is simply. Lorem Ipsum has been
+            the industry's standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it 1960s with
+            the releax map lapora verita.
+          </p>
+          <button class="mybtn">See Live <img class="btnIcon" src="images/seelive.svg" alt=""></button>
+          <button class="mybtn">See Source <img src="images/seeSource.svg" alt=""> </button>
+        </div>
+      </div>
+    </section>
     <header class="toolbar">
       <a class="name" href="#">Wahid Shadab</a>
       <nav class="menu" id="menu">
@@ -34,13 +56,17 @@
         <div class="menu_item"></div>
       </nav>
       <nav class="menuexpand expand">
-        <img src="images/close.png" alt="menu close button" class="closebtn expand">
+        <img
+          src="images/close.png"
+          alt="menu close button"
+          class="closebtn expand"
+        />
         <a class="d_menu_item expitem" href="#portfolio">Portfolio</a>
-        <hr>
+        <hr />
         <a class="d_menu_item expitem" href="#about">About</a>
-        <hr>
+        <hr />
         <a class="d_menu_item expitem" href="#contact">Contact</a>
-        <hr>
+        <hr />
       </nav>
       <nav class="desktop_menu">
         <a class="d_menu_item" href="#">Portfolio</a>
