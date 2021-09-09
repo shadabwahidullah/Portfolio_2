@@ -534,6 +534,9 @@ hr {
   margin: 0px;
 }
 
+.btns a{
+  text-decoration: none;
+}
 .popup ul li {
   margin: 10px;
   margin-left: 0px;
@@ -825,6 +828,7 @@ hr {
   }
   .closebutn {
     text-align: right;
+    cursor: pointer;
   }
   .popupUsedTechs{
     padding: 0px;

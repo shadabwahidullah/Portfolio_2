@@ -26,34 +26,33 @@
     <script src="index.js" defer></script>
   </head>
   <body tabindex="0" class="container">
-    <section class="popup" id="popup">
+    <section class="popup expand" id="popup">
       <div class="popupWrapper">
         <h1 class="popupTitle" id="popupTitle">Keeping track</h1>
         <p class="closebutn">&times;</p>
         <ul class="usedTechs span2c popupUsedTechs">
-          <li class="tech">HTML</li>
-          <li class="tech">Bootstrap</li>
-          <li class="tech">Ruby On Rails</li>
         </ul>
         <img
           class="popupImage"
-          src="images/recentWork.png"
+          id="popupImage"
+          src=""
           alt="The project screenshot"
         />
         <div class="popupBody">
           <p class="popupDesc" id="popupDesc">
-            Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it 1960s with the releax map lapora
-            verita.
           </p>
           <div class="btns">
-            <button class="mybtn">
-              See Live <img class="btnIcon" src="images/seelive.svg" alt="" />
-            </button>
-            <button class="mybtn">
-              See Source <img src="images/seeSource.svg" alt="" />
-            </button>
+            <a href="#" id="livelink">
+              <button class="mybtn">
+                See Live <img class="btnIcon" src="images/seelive.svg" alt="" />
+              </button>
+             
+            </a>
+            <a href="#" id="sourcelink">
+              <button class="mybtn">
+                See Source <img src="images/seeSource.svg" alt="" />
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -139,7 +138,7 @@
           <li class="tech">Bootstrap</li>
           <li class="tech">Ruby</li>
         </ul>
-        <button class="mybtn" type="button">See Project</button>
+        <button class="mybtn " id="recentbutton" type="button">See Project</button>
       </div>
       <div class="workCards">
         <div class="workCard" tabindex="0">
@@ -157,7 +156,7 @@
               <li class="tech twc">Ruby</li>
             </ul>
           </div>
-          <button class="mybtn spwc" type="button">See Project</button>
+          <button class="mybtn spwc projectbtn" type="button">See Project</button>
         </div>
         <div class="workCard" tabindex="0">
           <div class="workCardContent">
@@ -174,7 +173,7 @@
               <li class="tech twc">Ruby</li>
             </ul>
           </div>
-          <button class="mybtn spwc" type="button">See Project</button>
+          <button class="mybtn spwc projectbtn" type="button">See Project</button>
         </div>
         <div class="workCard" tabindex="0">
           <div class="workCardContent">
@@ -191,7 +190,7 @@
               <li class="tech twc">Ruby</li>
             </ul>
           </div>
-          <button class="mybtn spwc" type="button">See Project</button>
+          <button class="mybtn spwc projectbtn" type="button">See Project</button>
         </div>
         <div class="workCard" tabindex="0">
           <div class="workCardContent">
@@ -208,7 +207,7 @@
               <li class="tech twc">Ruby</li>
             </ul>
           </div>
-          <button class="mybtn spwc" type="button">See Project</button>
+          <button class="mybtn spwc projectbtn" type="button">See Project</button>
         </div>
         <div class="workCard" tabindex="0">
           <div class="workCardContent">
@@ -225,7 +224,7 @@
               <li class="tech twc">Ruby</li>
             </ul>
           </div>
-          <button class="mybtn spwc" type="button">See Project</button>
+          <button class="mybtn spwc projectbtn" type="button">See Project</button>
         </div>
         <div class="workCard" tabindex="0">
           <div class="workCardContent">
@@ -242,7 +241,7 @@
               <li class="tech twc">Ruby</li>
             </ul>
           </div>
-          <button class="mybtn spwc" type="button">See Project</button>
+          <button class="mybtn spwc projectbtn" type="button">See Project</button>
         </div>
       </div>
     </section>
