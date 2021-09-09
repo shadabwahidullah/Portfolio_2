@@ -20,11 +20,52 @@ let projects = {
   first:{
     name: 'first',
     desc: 'first project description',
-    image: '#',
+    image: URL('#'),
     techs: ['html','css','ruby'],
     live: '',
     source: '',
-  }
+  },
+  second:{
+    name: 'second',
+    desc: 'second project description',
+    image: URL('#'),
+    techs: ['JS', 'Codepen', 'VScode'],
+    live: 'href="#"',
+    sourse: '',
+  },
+  thrid:{
+    name: 'second',
+    desc: 'second project description',
+    image: URL('#'),
+    techs: ['JS', 'Codepen', 'VScode'],
+    live: 'href="#"',
+    sourse: '',
+  },
+  fourth:{
+    name: 'second',
+    desc: 'second project description',
+    image: URL('#'),
+    techs: ['JS', 'Codepen', 'VScode'],
+    live: 'href="#"',
+    sourse: '',
+  },
+  fivth:{
+    name: 'second',
+    desc: 'second project description',
+    image: URL('#'),
+    techs: ['JS', 'Codepen', 'VScode'],
+    live: 'href="#"',
+    sourse: '',
+  },
+  sixth:{
+    name: 'second',
+    desc: 'second project description',
+    image: URL('#'),
+    techs: ['JS', 'Codepen', 'VScode'],
+    live: 'href="#"',
+    sourse: '',
+  },
+
 }
 console.log(projects.first.name);
 console.log(projects.first.name);
