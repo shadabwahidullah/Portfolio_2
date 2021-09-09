@@ -18,62 +18,52 @@ document.querySelectorAll('.expitem').forEach((item) => {
 
 let projects = {
   first:{
-    name: 'first',
-    desc: 'first project description',
-    image: URL('#'),
+    name: 'First Project',
+    desc: "first project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    image: '#',
     techs: ['html','css','ruby'],
     live: '',
     source: '',
   },
   second:{
-    name: 'second',
-    desc: 'second project description',
-    image: URL('#'),
+    name: 'Second Project',
+    desc: "second project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    image:"#",
     techs: ['JS', 'Codepen', 'VScode'],
     live: 'href="#"',
     sourse: '',
   },
   thrid:{
-    name: 'second',
-    desc: 'second project description',
-    image: URL('#'),
+    name: 'Third project',
+    desc: "Third project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    image: "#",
     techs: ['JS', 'Codepen', 'VScode'],
-    live: 'href="#"',
+    live: '#',
     sourse: '',
   },
   fourth:{
-    name: 'second',
-    desc: 'second project description',
-    image: URL('#'),
+    name: 'Fourth Project',
+    desc: "Fourth project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita." ,
+    image: "#",
     techs: ['JS', 'Codepen', 'VScode'],
-    live: 'href="#"',
-    sourse: '',
+    live: '#',
+    source: '',
   },
-  fivth:{
-    name: 'second',
-    desc: 'second project description',
-    image: URL('#'),
+  fifth:{
+    name: 'Fifth Project',
+    desc: "Fifth project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    image: '#',
     techs: ['JS', 'Codepen', 'VScode'],
-    live: 'href="#"',
-    sourse: '',
+    live: '',
+    source: '',
   },
   sixth:{
-    name: 'second',
-    desc: 'second project description',
-    image: URL('#'),
+    name: 'Sixth Project',
+    desc: "second project description",
+    image: "#",
     techs: ['JS', 'Codepen', 'VScode'],
-    live: 'href="#"',
-    sourse: '',
+    live: '',
+    source: '',
   },
 
 }
-console.log(projects.first.name);
-console.log(projects.first.name);
-console.log(projects.first.techs);
-document.getElementById('popupTitle').innerHTML = "nothing";
-
-// function generatePopup(){
-//   document.getElementById('popupTitle') = projects.first.name;
-// }
-
-// document.querySelector('.popup').addEventListener('click',generatePopup);
