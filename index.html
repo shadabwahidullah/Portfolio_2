@@ -31,8 +31,7 @@
       <div class="popupWrapper">
         <h1 class="popupTitle" id="popupTitle">Keeping track</h1>
         <p class="closebutn">&times;</p>
-        <ul class="usedTechs span2c popupUsedTechs">
-        </ul>
+        <ul class="usedTechs span2c popupUsedTechs"></ul>
         <img
           class="popupImage"
           id="popupImage"
@@ -40,8 +39,7 @@
           alt="The project screenshot"
         />
         <div class="popupBody">
-          <p class="popupDesc" id="popupDesc">
-          </p>
+          <p class="popupDesc" id="popupDesc"></p>
           <div class="btns">
             <a href="#" id="livelink">
               <div class="popupbtn mybtn">
@@ -138,10 +136,11 @@
           <li class="tech">Bootstrap</li>
           <li class="tech">Ruby</li>
         </ul>
-        <button class="mybtn recentbtn" id="recentbutton" type="button">See Project</button>
+        <button class="mybtn recentbtn" id="recentbutton" type="button">
+          See Project
+        </button>
       </div>
-      <div class="workCards">
-      </div>
+      <div class="workCards"></div>
     </section>
     <section class="aboutme" id="about">
       <div class="aboutmeWrapper">
@@ -203,7 +202,12 @@
         interested in hearing about new projects, so if you'd like to chat
         please get in touch.
       </h3>
-      <form action="https://formspree.io/f/xpzkoeda" method="post" class="form">
+      <form
+        action="https://formspree.io/f/xpzkoeda"
+        method="post"
+        class="form"
+        novalidate
+      >
         <ul>
           <li>
             <input
@@ -222,7 +226,7 @@
               type="email"
               name="mail"
               placeholder="Email address"
-              pattern="mailRegex"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
               id="email"
             />
           </li>
@@ -237,8 +241,13 @@
               name="comments"
             ></textarea>
           </li>
+          <li class="error">
+            <span class="error" id="error" aria-live="polite"> </span>
+          </li>
         </ul>
-        <button class="mybtn getInTouchBtn" id="subBtn" type="submit">Get in touch</button>
+        <button class="mybtn getInTouchBtn" id="subBtn" type="submit">
+          Get in touch
+        </button>
       </form>
     </section>
     <footer class="myfooter">

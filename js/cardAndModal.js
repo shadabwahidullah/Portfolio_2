@@ -123,11 +123,6 @@ function addProject(proName) {
 Object.keys(projects).forEach((key) => {
   addProject(key);
 });
-// for (const p of projects.keys()) {
-//   if (p != null) {
-//     addProject(p);
-//   }
-// }
 
 document.querySelector('.closebutn').addEventListener('click', () => {
   document.querySelector('.container').style.overflow = 'auto';
