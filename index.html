@@ -17,15 +17,46 @@
     </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Wahidullah's Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="index.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/cardAndModal.js" defer></script>
   </head>
   <body tabindex="0" class="container">
+    <section class="popup expand" id="popup">
+      <div class="popupWrapper">
+        <h1 class="popupTitle" id="popupTitle">Keeping track</h1>
+        <p class="closebutn">&times;</p>
+        <ul class="usedTechs span2c popupUsedTechs">
+        </ul>
+        <img
+          class="popupImage"
+          id="popupImage"
+          src="#"
+          alt="The project screenshot"
+        />
+        <div class="popupBody">
+          <p class="popupDesc" id="popupDesc">
+          </p>
+          <div class="btns">
+            <a href="#" id="livelink">
+              <div class="popupbtn mybtn">
+                See Live <img class="btnIcon" src="images/seelive.svg" alt="" />
+              </div>
+            </a>
+            <a href="#" id="sourcelink">
+              <div class="popupbtn mybtn">
+                See Source <img src="images/seeSource.svg" alt="" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <header class="toolbar">
       <a class="name" href="#">Wahid Shadab</a>
       <nav class="menu" id="menu">
@@ -34,13 +65,17 @@
         <div class="menu_item"></div>
       </nav>
       <nav class="menuexpand expand">
-        <img src="images/close.png" alt="menu close button" class="closebtn expand">
+        <img
+          src="images/close.png"
+          alt="menu close button"
+          class="closebtn expand"
+        />
         <a class="d_menu_item expitem" href="#portfolio">Portfolio</a>
-        <hr>
+        <hr />
         <a class="d_menu_item expitem" href="#about">About</a>
-        <hr>
+        <hr />
         <a class="d_menu_item expitem" href="#contact">Contact</a>
-        <hr>
+        <hr />
       </nav>
       <nav class="desktop_menu">
         <a class="d_menu_item" href="#">Portfolio</a>
@@ -103,111 +138,9 @@
           <li class="tech">Bootstrap</li>
           <li class="tech">Ruby</li>
         </ul>
-        <button class="mybtn" type="button">See Project</button>
+        <button class="mybtn recentbtn" id="recentbutton" type="button">See Project</button>
       </div>
       <div class="workCards">
-        <div class="workCard" tabindex="0">
-          <div class="workCardContent">
-            <h3 class="recentWorkTitle wc">
-              Profesional Art <br />Printing Data
-            </h3>
-            <p class="recentWorkDesc wc">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="usedTechs wc">
-              <li class="tech twc">HTML</li>
-              <li class="tech twc">Bootstrap</li>
-              <li class="tech twc">Ruby</li>
-            </ul>
-          </div>
-          <button class="mybtn spwc" type="button">See Project</button>
-        </div>
-        <div class="workCard" tabindex="0">
-          <div class="workCardContent">
-            <h3 class="recentWorkTitle wc">
-              Profesional Art <br />Printing Data
-            </h3>
-            <p class="recentWorkDesc wc">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="usedTechs wc">
-              <li class="tech twc">HTML</li>
-              <li class="tech twc">Bootstrap</li>
-              <li class="tech twc">Ruby</li>
-            </ul>
-          </div>
-          <button class="mybtn spwc" type="button">See Project</button>
-        </div>
-        <div class="workCard" tabindex="0">
-          <div class="workCardContent">
-            <h3 class="recentWorkTitle wc">
-              Profesional Art <br />Printing Data
-            </h3>
-            <p class="recentWorkDesc wc">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="usedTechs wc">
-              <li class="tech twc">HTML</li>
-              <li class="tech twc">Bootstrap</li>
-              <li class="tech twc">Ruby</li>
-            </ul>
-          </div>
-          <button class="mybtn spwc" type="button">See Project</button>
-        </div>
-        <div class="workCard" tabindex="0">
-          <div class="workCardContent">
-            <h3 class="recentWorkTitle wc">
-              Profesional Art <br />Printing Data
-            </h3>
-            <p class="recentWorkDesc wc">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="usedTechs wc">
-              <li class="tech twc">HTML</li>
-              <li class="tech twc">Bootstrap</li>
-              <li class="tech twc">Ruby</li>
-            </ul>
-          </div>
-          <button class="mybtn spwc" type="button">See Project</button>
-        </div>
-        <div class="workCard" tabindex="0">
-          <div class="workCardContent">
-            <h3 class="recentWorkTitle wc">
-              Profesional Art <br />Printing Data
-            </h3>
-            <p class="recentWorkDesc wc">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="usedTechs wc">
-              <li class="tech twc">HTML</li>
-              <li class="tech twc">Bootstrap</li>
-              <li class="tech twc">Ruby</li>
-            </ul>
-          </div>
-          <button class="mybtn spwc" type="button">See Project</button>
-        </div>
-        <div class="workCard" tabindex="0">
-          <div class="workCardContent">
-            <h3 class="recentWorkTitle wc">
-              Profesional Art <br />Printing Data
-            </h3>
-            <p class="recentWorkDesc wc">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="usedTechs wc">
-              <li class="tech twc">HTML</li>
-              <li class="tech twc">Bootstrap</li>
-              <li class="tech twc">Ruby</li>
-            </ul>
-          </div>
-          <button class="mybtn spwc" type="button">See Project</button>
-        </div>
       </div>
     </section>
     <section class="aboutme" id="about">

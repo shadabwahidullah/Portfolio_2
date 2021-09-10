@@ -56,7 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   background: #1c1a19;
-  background-image: url("images/Illustration.svg");
+  background-image: url("/images/Illustration.svg");
   background-repeat: no-repeat;
   background-position: 100% bottom;
   height: 100vh;
@@ -192,6 +192,7 @@ body {
   background-color: #fff5e1;
   border: 2px solid #ff6b00;
   color: #ff6b00;
+  cursor: pointer;
 }
 
 .mybtn:active {
@@ -232,7 +233,9 @@ body {
   justify-content: flex-end;
   flex-direction: column;
   align-items: baseline;
-  background: url(images/workCardbg.png);
+  background:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(0, 0, 0, 0.73)),
+    url(/images/workCardbg.png);
   height: 446px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -242,7 +245,7 @@ body {
 .aboutme {
   height: 2300px;
   background: black;
-  background-image: url(images/illustration-about-me-mobile.svg);
+  background-image: url(/images/illustration-about-me-mobile.svg);
   background-repeat: no-repeat;
   background-position-x: 99.99%;
   background-position-y: 20%;
@@ -431,6 +434,141 @@ body {
   margin-bottom: 8px;
 }
 
+.menuexpand {
+  display: flex;
+  flex-direction: column;
+  width: 92vw;
+  height: 100vh;
+
+  /* align-items: flex-start; */
+  margin: 1008px 24px;
+}
+
+.menuexpand > a {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  text-decoration: none;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.expand {
+  display: none;
+}
+
+.closebtn {
+  align-self: last baseline;
+  height: 20px;
+  width: 20px;
+  margin: 20px 0;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+
+.height100 {
+  height: 100vh;
+}
+
+.popup {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+
+  /* overflow: auto; */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popupWrapper {
+  display: grid;
+  height: 90%;
+  grid-template-columns: 1fr 20px;
+  grid-template-rows: 1fr 1fr 3fr 3fr 1fr;
+  background: white;
+  margin: 30px 16px;
+  overflow: auto;
+  padding: 16px;
+}
+
+.span2c {
+  grid-column: span 2;
+}
+
+.popupTitle {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #172b4d;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.popupBody {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.popup p {
+  font-size: 22px;
+}
+
+.popupImage {
+  width: 100%;
+  height: auto;
+  grid-column: span 2;
+}
+
+.popupDesc {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.popupbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  font-size: 17px;
+  height: 48px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.popupbtn:hover {
+  height: 44px;
+  margin-right: 6px;
+}
+
+.popupbtn img {
+  margin-left: 10px;
+}
+
+.popup ul li {
+  margin: 10px;
+  margin-left: 0;
+}
+
+.btnIcon {
+  height: 19px;
+  width: 19px;
+  padding-left: 10px;
+  text-align: center;
+}
+
 @media (min-width: 1000px) {
   .toolbar {
     padding: 0% 10%;
@@ -479,7 +617,7 @@ body {
   .headline {
     display: grid;
     grid-template-columns: 10% 40% 50%;
-    background-image: url("images/Illustration-desktop.svg");
+    background-image: url("/images/Illustration-desktop.svg");
     background-size: auto;
   }
 
@@ -594,7 +732,7 @@ body {
   }
 
   .workCard:hover {
-    background: url("images/workCardHover.png");
+    background: url("/images/workCardHover.png");
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid black;
@@ -618,7 +756,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2fr 1fr 2fr;
     height: 1295px;
-    background-image: url("images/illustration-about\ me\ Desktop.svg");
+    background-image: url("/images/illustration-about\ me\ Desktop.svg");
   }
 
   .aboutmeWrapper {
@@ -690,47 +828,35 @@ body {
   .footerLine {
     display: none;
   }
-}
 
-.menuexpand {
-  display: flex;
-  flex-direction: column;
-  width: 92vw;
-  height: 100vh;
+  .popupWrapper {
+    height: 80%;
+    margin: 5%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    padding: 24px;
+  }
 
-  /* align-items: flex-start; */
-  margin: 1008px 24px;
-}
+  .popupImage {
+    grid-column: span 1;
+  }
 
-.menuexpand > a {
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff5e1;
-  text-decoration: none;
-  padding: 10px;
-  padding-top: 20px;
-}
+  .popupBody {
+    grid-column: auto;
+  }
 
-.expand {
-  display: none;
-}
+  .popupDesc {
+    margin: 0;
+    font-size: 16px;
+    line-height: 30px;
+  }
 
-.closebtn {
-  align-self: last baseline;
-  height: 20px;
-  width: 20px;
-  margin: 20px 0;
-}
+  .closebutn {
+    text-align: right;
+    cursor: pointer;
+  }
 
-hr {
-  padding: 0;
-  margin: 0;
-  background: white;
-}
-
-.height100 {
-  height: 100vh;
+  .popupUsedTechs {
+    padding: 0;
+  }
 }
