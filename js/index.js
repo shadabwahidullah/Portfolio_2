@@ -70,6 +70,16 @@ const projects = {
 
 const mybtn = document.querySelectorAll('.projectbtn');
 
+// example of how to call a prarmtered function from addEventListener
+
+// const tmp = document.querySelector('.recentbtn');
+// tmp.addEventListener('click', function(){
+//   somefunc('first');
+// });
+// function somefunc(event){
+//   window.alert(event);
+// }
+
 function openPopupFirst() {
   document.querySelector('.container').style.overflow = 'hidden';
   document.getElementById('popupTitle').innerHTML = projects.first.name;

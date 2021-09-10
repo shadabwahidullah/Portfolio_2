@@ -56,7 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   background: #1c1a19;
-  background-image: url("images/Illustration.svg");
+  background-image: url("/images/Illustration.svg");
   background-repeat: no-repeat;
   background-position: 100% bottom;
   height: 100vh;
@@ -233,7 +233,7 @@ body {
   justify-content: flex-end;
   flex-direction: column;
   align-items: baseline;
-  background: url(images/workCardbg.png);
+  background: url(/images/workCardbg.png);
   height: 446px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -243,7 +243,7 @@ body {
 .aboutme {
   height: 2300px;
   background: black;
-  background-image: url(images/illustration-about-me-mobile.svg);
+  background-image: url(/images/illustration-about-me-mobile.svg);
   background-repeat: no-repeat;
   background-position-x: 99.99%;
   background-position-y: 20%;
@@ -614,7 +614,7 @@ hr {
   .headline {
     display: grid;
     grid-template-columns: 10% 40% 50%;
-    background-image: url("images/Illustration-desktop.svg");
+    background-image: url("/images/Illustration-desktop.svg");
     background-size: auto;
   }
 
@@ -729,7 +729,7 @@ hr {
   }
 
   .workCard:hover {
-    background: url("images/workCardHover.png");
+    background: url("/images/workCardHover.png");
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid black;
@@ -753,7 +753,7 @@ hr {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2fr 1fr 2fr;
     height: 1295px;
-    background-image: url("images/illustration-about\ me\ Desktop.svg");
+    background-image: url("/images/illustration-about\ me\ Desktop.svg");
   }
 
   .aboutmeWrapper {
