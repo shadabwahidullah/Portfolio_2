@@ -192,6 +192,7 @@ body {
   background-color: #fff5e1;
   border: 2px solid #ff6b00;
   color: #ff6b00;
+  cursor: pointer;
 }
 
 .mybtn:active {
@@ -541,7 +542,12 @@ hr {
   float: left;
   font-size: 17px;
   height: 48px;
-  margin-left: 10px;
+  margin: 0px;
+  margin-right: 10px;
+}
+.popupbtn:hover{
+  height: 44px;
+  margin-right: 6px;
 }
 
 .popupbtn img {
