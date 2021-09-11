@@ -25,6 +25,7 @@
     />
     <script src="js/index.js" defer></script>
     <script src="js/cardAndModal.js" defer></script>
+    <script src="js/storeData.js" defer></script>
   </head>
   <body tabindex="0" class="container">
     <section class="popup expand" id="popup">
@@ -211,7 +212,8 @@
         <ul>
           <li>
             <input
-              class="mytextArea"
+              class="mytextArea formin"
+              id="fullname"
               required
               type="text"
               name="Fullname"
@@ -221,8 +223,9 @@
           </li>
           <li>
             <input
-              class="mytextArea"
+              class="mytextArea formin"
               required
+              id="email"
               type="email"
               name="mail"
               placeholder="Email address"
@@ -233,7 +236,8 @@
           <li>
             <textarea
               required
-              class="desc"
+              class="desc formin"
+              id="desc"
               cols="30"
               rows="5"
               placeholder="Enter Text here"
