@@ -2,7 +2,7 @@ const projects = {
   first: {
     name: 'First Project',
     desc: "first project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    image: '/images/recentWork.png',
+    image: '../images/recentWork.png',
     techs: ['html', 'css', 'ruby'],
     live: '',
     source: '',
@@ -10,7 +10,7 @@ const projects = {
   second: {
     name: 'Second Project',
     desc: "second project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    image: 'images/recentWork.png',
+    image: '../images/recentWork.png',
     techs: ['JS', 'Codepen', 'VScode'],
     live: '"',
     sourse: '',

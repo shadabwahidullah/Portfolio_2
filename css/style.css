@@ -239,7 +239,7 @@ body {
       rgba(255, 255, 255, 0.52),
       rgba(0, 0, 0, 0.73)
     ),
-    url(/images/workCardbg.png);
+    url(../images/workCardbg.png);
   height: 446px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -748,7 +748,7 @@ hr {
   }
 
   .workCard:hover {
-    background: url("/images/workCardHover.png");
+    background: url("../images/workCardHover.png");
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid black;
