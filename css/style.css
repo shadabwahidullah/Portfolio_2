@@ -414,6 +414,7 @@ body {
 .getInTouchBtn {
   align-self: center;
   padding: 12px;
+  width: 200px;
 }
 
 .myfooter {
@@ -833,7 +834,6 @@ hr {
 
   .getInTouchBtn {
     align-self: auto;
-    width: 162px;
   }
 
   .myfooter {

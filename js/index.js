@@ -6,6 +6,11 @@ function menubtnClicked() {
   document.querySelector('.name').classList.toggle('expand');
   document.querySelector('.closebtn').classList.toggle('expand');
   document.querySelector('.toolbar').classList.toggle('height100');
+  if(document.querySelector('.container').style.overflow == 'hidden'){
+    document.querySelector('.container').style.overflow = 'auto';
+  }else{
+    document.querySelector('.container').style.overflow = 'hidden';
+  }
 }
 menubtn.addEventListener('click', menubtnClicked);
 
